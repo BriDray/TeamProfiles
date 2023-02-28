@@ -153,6 +153,13 @@ function init() {
             text-align: center;
 
         }
+        h3 {
+          font-size: 30px;
+          font-weight: bold;
+      }
+      h4, h5, h6 {
+          font-size: 18px;
+      }
 </style>
 </div>
 
