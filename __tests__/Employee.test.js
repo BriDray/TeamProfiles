@@ -2,9 +2,9 @@ const Employee = require('../lib/Employee');
 
 describe('Employee', () => {
     const exampleEmployee = {
-        name: "Jonah",
+        name: "Bri",
         id: 1,
-        email: "Jonah@mail.com",
+        email: "stanggurl02@gmail.com",
     };
     describe("constructor tests", () => {
         test("should create new employee class", () => {
@@ -14,9 +14,9 @@ describe('Employee', () => {
         test("should create new employee class with name, id, email", () => {
             const employee = new Employee(exampleEmployee);
             expect(employee).toEqual({
-                name: "Jonah",
+                name: "Bri",
                 id: 1,
-                email: "Jonah@mail.com",
+                email: "stanggurl02@gmail.com",
             });
         });
     });
@@ -27,11 +27,11 @@ describe('Employee', () => {
         });
         test("name should be returned when getName method is called", () => {
             const employee = new Employee(exampleEmployee);
-            expect(employee.getName()).toEqual("Jonah");
+            expect(employee.getName()).toEqual("Bri");
         });
         test("id should be returned when getId method is called", () => {
             const employee = new Employee(exampleEmployee);
-            expect(employee.getEmail()).toEqual("Jonah@mail.com");
+            expect(employee.getEmail()).toEqual("stanggurl02@gmail.com");
         });
     });
 });
