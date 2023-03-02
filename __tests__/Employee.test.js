@@ -29,7 +29,7 @@ describe('Employee', () => {
             const employee = new Employee(exampleEmployee);
             expect(employee.getName()).toEqual("Bri");
         });
-        test("id should be returned when getId method is called", () => {
+        test("email should be returned when getId method is called", () => {
             const employee = new Employee(exampleEmployee);
             expect(employee.getEmail()).toEqual("stanggurl02@gmail.com");
         });

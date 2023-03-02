@@ -31,7 +31,7 @@ describe('Engineer', () => {
             const engineer = new Engineer(exampleEngineer);
             expect(engineer.getName()).toEqual("Bri");
         });
-        test("id should be returned when getId method is called", () => {
+        test("email should be returned when getId method is called", () => {
             const engineer = new Engineer(exampleEngineer);
             expect(engineer.getEmail()).toEqual("stanggurl02@gmail.com");
         });

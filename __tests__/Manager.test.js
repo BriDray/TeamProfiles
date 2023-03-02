@@ -31,11 +31,11 @@ describe('Manager', () => {
             const manager = new Manager(exampleManager);
             expect(manager.getName()).toEqual("Bri");
         });
-        test("id should be returned when getId method is called", () => {
+        test("officeNumber should be returned when getId method is called", () => {
             const manager = new Manager(exampleManager);
             expect(manager.officeNumber()).toEqual("121");
         });
-        test("id should be returned when getId method is called", () => {
+        test("email should be returned when getId method is called", () => {
             const manager = new Manager(exampleManager);
             expect(manager.getEmail()).toEqual("stanggurl02@gmail.com");
         });
