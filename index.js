@@ -10,56 +10,27 @@ const Manager = require('./lib/Manager');
 
 const employees = []
 
-// WHAT SET OF QUESTIONS WILL WE NEED?
-const Position = [
-  {
-    type: 'list',
-    message: 'What is your Position?',
-    name: 'role',
-    choices: ['Employee', 'Manager', 'Engineer', 'Intern'],
-  }
-]
-
-// QUESTIONS FOR THE EMPLOYEES
-// const employeeQuestions = [
-//   {
-//     type: 'input',
-//     name: 'name',
-//     message: "What's your First and Last Name?",
-//   },
-//   {
-//     type: 'input',
-//     name: 'id',
-//     message: "What's your Employee Id?",
-//   },
-//   {
-//     type: 'input',
-//     name: 'email',
-//     message: "Enter your E-mail?",
-//   },
-// ];
-
 // QUESTIONS FOR THE INTERNS
 const internQuestions = [
   {
     type: 'input',
     name: 'name',
-    message: "What's your First and Last Name?",
+    message: "What's the Intern's First and Last Name?",
   },
   {
     type: 'input',
     name: 'id',
-    message: "What's your Employee Id?",
+    message: "What's the Intern's Employee Id?",
   },
   {
     type: 'input',
     name: 'email',
-    message: "Enter your E-mail?",
+    message: "Enter the Intern's E-mail?",
   },
   {
     type: 'input',
     name: 'school',
-    message: "What school are you attending?",
+    message: "What school is the Intern attending?",
   },
 
 ]
@@ -93,22 +64,22 @@ const engineerQuestions = [
   {
     type: 'input',
     name: 'name',
-    message: "What's your First and Last Name?",
+    message: "What's the Engineer's First and Last Name?",
   },
   {
     type: 'input',
     name: 'id',
-    message: "What's your Employee Id?",
+    message: "What's the Engineer's Employee Id?",
   },
   {
     type: 'input',
     name: 'email',
-    message: "Enter your E-mail?",
+    message: "Enter the Engineer's E-mail?",
   },
   {
     type: 'input',
     name: 'github',
-    message: "Whats your Github User name?",
+    message: "Whats the Engineer's Github User name?",
   },
 ]
 
