@@ -127,8 +127,8 @@ let html = `
      </style>
 </head>
 <body>
-  <header style="height: 125px; width: 100%; background-color: darkcyan; margin-top: 0%;">
-  <h1 Style="font-size: 100px; text-align: center; font-weight: bold; color:azure">Meet The Team</h1>
+  <header style="width: 100%; background-color: darkcyan; margin-top: 0%;">
+  <h1 Style="font-size: 100px; text-align: center; font-weight: bold; color:azure; margin: 0;">Meet The Team</h1>
   </header>
 
   <!-- SECOND PAGE TITLE-->
