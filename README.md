@@ -21,6 +21,11 @@ in order to run this application you will need [Jest](https://www.npmjs.com/pack
 ```bash
 node index.js
 ```
+And test using the following command:
+
+```bash
+npm run test
+```
 
 ## Usage
 ![Screenshot (92)](https://user-images.githubusercontent.com/118693956/222657166-47fadf24-881a-4522-b85d-ed8487f029d4.png)
