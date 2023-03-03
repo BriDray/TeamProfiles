@@ -138,8 +138,8 @@ let html = `
 function init() {
   inquirer.prompt(manager).then((managerAnswer) => {
     console.log("manager " + JSON.stringify(managerAnswer));
-    const {name, id, email, officeNumber} = managerAnswer
-    const manager = new Manager (name, id, email, officeNumber)
+    // const {name, id, email, officeNumber} = managerAnswer
+    const manager = new Manager (managerAnswer)
     employees.push(manager)
     menu ();
 

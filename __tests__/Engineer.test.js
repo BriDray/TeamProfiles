@@ -19,6 +19,7 @@ describe('Engineer', () => {
                 id: 1,
                 email: "stanggurl02@gmail.com",
                 github: "BriDray",
+                role: "Engineer"
             });
         });
     });
@@ -37,7 +38,7 @@ describe('Engineer', () => {
         });
         test("github should be returned when getId method is called", () => {
             const engineer = new Engineer(exampleEngineer);
-            expect(engineer.github()).toEqual("BriDray");
+            expect(engineer.getGithub()).toEqual("BriDray");
         });
     });
 });

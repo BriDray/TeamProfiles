@@ -1,7 +1,8 @@
-const Intern = require('./lib/Intern');
+const Intern = require('../lib/Intern');
+
 
 describe('Intern', () => {
-    const exampleEngineer = {
+    const exampleIntern = {
         name: "Bri",
         id: 1,
         email: "stanggurl02@gmail.com",
@@ -19,6 +20,7 @@ describe('Intern', () => {
                 id: 1,
                 email: "stanggurl02@gmail.com",
                 school: "UC Davis",
+                role: 'Intern'
             });
         });
     });
@@ -37,7 +39,7 @@ describe('Intern', () => {
         });
         test("school should be returned when getId method is called", () => {
             const intern = new Intern(exampleIntern);
-            expect(intern.school()).toEqual("UC Davis");
+            expect(intern.getSchool()).toEqual("UC Davis");
         });
     });
 });

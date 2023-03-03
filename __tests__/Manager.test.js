@@ -19,6 +19,7 @@ describe('Manager', () => {
                 id: 1,
                 officeNumber: "121",
                 email: "stanggurl02@gmail.com",
+                role: 'Manager'
             });
         });
     });
@@ -33,7 +34,7 @@ describe('Manager', () => {
         });
         test("officeNumber should be returned when getId method is called", () => {
             const manager = new Manager(exampleManager);
-            expect(manager.officeNumber()).toEqual("121");
+            expect(manager.getOfficeNumber()).toEqual("121");
         });
         test("email should be returned when getId method is called", () => {
             const manager = new Manager(exampleManager);
