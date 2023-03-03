@@ -111,15 +111,17 @@ let html = `
             display: inline-block;
             width:350px;
             height:375px;
-            border-top: 10px;
-            border-color: solid darkmagenta;
+            border: 2px solid black;
             background-color: antiquewhite;
             text-align: center;
+            margin: 65px;
 
         }
         h3 {
-          font-size: 30px;
+          font-size: 35px;
           font-weight: bold;
+          color: white;
+          background-color: darkcyan;
         }
         h4, h5, h6 {
             font-size: 18px;
